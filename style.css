@@ -1,0 +1,558 @@
+/*index page*/
+*{
+    margin:0;
+    padding:0;
+}
+
+.main{ 
+    width:100%;
+    background-image: url(pictures/project-gifs/@2x-Blog-Multimodal-Learning-Animation.gif);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+
+
+
+.nav{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    border: 2px solid #08113a ;
+    border-radius: 40px;
+    background-color:#ffffff;
+}
+
+.icon{
+    width: 200px;
+    height: 70px;
+    float:left;
+}
+.logo{
+    float:left;
+    color:rgb(84, 127, 245);
+    font-size: 22px;
+    font-family: Arial;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 95px;
+    height: 52px;
+
+    
+   
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height:70px;
+    padding-bottom: 30px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration:none;
+    color: rgb(84, 127, 245);
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+}
+
+ul li a:hover{
+  
+    font-style:italic;
+    border-radius: 10px;
+   border: 2px solid #08113a;
+    color:#08113a;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid  #08113a ;
+    margin-top: 13px;
+    color:#08113a;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+   
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background:rgb(104, 143, 248);
+    border: 2px solid rgb(107, 145, 248); 
+    margin-top: 13px;
+    color: #fff;
+    font-size: 17px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}  
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:#e6e6e6;
+    position: relative;
+}
+
+.title{
+    font-size: 40px;
+    font-family: serif;
+    font-style: italic;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    color:#08113a;
+
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    font-style:unset;
+    color:#fafafa;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+    font-size: 20px;
+    width: 450px;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    
+}
+
+.form{ 
+    width: 250px;
+    height: 380px;
+    border: 2px solid #08113a;
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:#08113a;
+    font-size: 24px;
+    border-radius:10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #0f1a49;
+    border-radius: 12px;
+    color:#0f1a49;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    padding: 3px;
+}
+
+.form input:focus{
+    border: 3px solid #181cf7;
+    background-color: #ffffff;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background:#08113a;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #e6e6e6;
+}
+
+.btnn:hover{
+   background:#2947cc;
+   color: #e6e6e6;
+}
+
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: #060d29;
+
+}
+
+
+.form .link a{
+    text-decoration: none;
+    color:#fbfbfc ;
+}
+
+.form .link a:hover{
+ color: #0c30ff;
+}
+
+.icon a{
+    text-decoration: none;
+    color:#f5f5f5;
+    
+}
+
+.icons ion-icon{
+    color:#f9f9fc;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icon ion-icon:hover{
+    color: #4969e9;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+/*contact us page*/
+.bd{
+  padding-left: 20px;
+   float: left;
+}
+.contactform{
+    color:#0f1a49;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 30px;
+  background-color: #ffffff;
+    padding: 50px;
+    border: 3px solid #3053f0;
+   
+ 
+}
+
+.contactform input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border: 2px solid #3053f0 ;
+    border-radius: 20px;
+    color:#08113a;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.contactform input:focus{
+    outline: none;
+
+}
+
+.contactform textarea{
+    background: none;
+    color: #08113a;
+    font-size: 16px;
+    border: 2px solid #3053f0;
+    border-radius: 20px;
+    
+}
+
+.contactform p{
+    text-align: center;
+    color:#172977;
+    font-family: fantasy;
+    font-size: 30px;
+
+}
+
+.left{
+    flex-basis: 50%;
+}
+
+.msgpic{
+    flex-basis: 50%;
+    
+}
+/*------------------------------------------------------------------------------------------------------------*/
+
+/*courses page*/
+h1{
+    color: #08113a;
+}
+.row{
+    display:flex;
+    align-items: top;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+.ctg1{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px;
+    background-image: url(pictures/category/business.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.ctg2{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px;
+    background-image: url(pictures/category/AI-test-800x600_rdax_725x544s.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.ctg3{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px;
+    background-image: url(pictures/category/art.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.ctg4{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px;
+    background-image: url(pictures/category/health.jfif);
+    background-position: center;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.ctg5{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px;
+    background-image: url(pictures/category/Information-Technology-2.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.ctg6{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #b4c1fa;
+   
+  
+}
+
+.para{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    font-style: oblique;
+    color:#0f1a49;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+
+.tp{
+    font-size: 40px;
+    font-family: serif;
+    font-style: italic;
+    padding-left: 20px;
+    color:#08113a;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+}
+
+.scroll{
+background-color: #08113a;
+border-color:#08113a;
+border-radius: 20px;
+color: #fff;
+width: 200px;
+height: 50px;
+}
+
+.ctg1:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.ctg2:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.ctg3:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.ctg4:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.ctg5:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.ctg6:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*sign up page*/
+
+.signform{
+    
+    width: 330px;
+    padding: 50px;
+    background-color: #08113a;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    border-radius: 30px;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+}
+
+.form1 input{
+    width: 240px;
+    outline: none;
+    border: 1px solid #08113a;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.btn1{
+    width: 180px;
+    height: 40px;
+    background:#e6e6e6;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #08113a;
+}
+
+.btn1:hover{
+    background:#1c3296;
+    color: #e6e6e6;
+}
+
+.form1 input:focus{
+    border: 3px solid #3b58da;
+}
+
+.signform a{
+    color: #3958e6;
+}
+
+.signform a:hover{
+    color: #94abdd;
+}

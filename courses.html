@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>courses</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div><!--header of the page-->
+            <div class="nav">
+                <div class="icon">
+                    <h2 class="logo">QuickLearn</h2>
+                </div>
+               
+                <div class="search">
+                    <input class="srch" type="search" name="search" placeholder="search course here">
+                    <button class="btn">search</button>
+                </div>
+            </div>
+<br><br>
+        <div class="row">
+
+        <div class="col"><!--small description + js button to switch between courses-->
+          <h1 class="tp">A Broad Selection of Courses</h1> <br>
+          <p class="para">Don't get left behind by the ever-changing world of work.<br> Upskill with us and gain the tools you need to reach your full potential an thrive in any environment. </p><br>
+          <h1>Popular Topics</h1>
+          <div><img id="img" src="pictures/courses pics/course1.jpg"/></div>
+          <button class="scroll" onclick="next()">view our top courses</button>
+        </div>
+
+        <div class="col">
+        <div class="ctg1">
+            <p>Business</p>
+        </div>
+
+        <div class="ctg2">
+            <p>AI</p>
+        </div>
+
+        <div class="ctg3">
+            <p>Art</p>
+        </div><br>
+
+        <div class="ctg4">
+            <p>health</p>
+        </div>
+
+        <div class="ctg5">
+            <p>IT and Software</p>
+        </div>
+
+        <div  class="ctg6">
+         <a href="#">View All Categories</a>
+        </div>
+    </div>
+</div>
+
+<script>/*function for button to switch*/
+    var photos=['pictures/courses pics/course1.jpg','pictures/courses pics/course2.jpg','pictures/courses pics/course3.jpg','pictures/courses pics/course4.jpg','pictures/courses pics/course5.jpg'];
+    var current =0;
+    function next()
+    {
+        current +=1;
+        if(current==photos.length)
+        {current = 0;}
+        document.getElementById("img").src = photos[current];
+    }
+</script>
+
+    </body>
